@@ -3,12 +3,10 @@
 }
 
 .container{
-    background-color: #758283;
+    background-color: #28210b;
 }
 
 nav{
-    /* display: flex;
-    flex-direction: row; */
     height: 50vh;
 }
 
@@ -21,7 +19,6 @@ nav{
 .list{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     align-items: center;
 }
 .nav-item{
@@ -43,10 +40,15 @@ nav{
     padding: 10px 30px;
     border-radius: 10px;
     font-size: 15px;
+    background-color: transparent;
+    color: #d7a418;
+    border: #d7a418 solid;
 }   
 
 .button-small:hover{
-    color: #758283;
+    /* color: #758283; */
+    color: #d7a418;
+    
 }
 
 .hero{
@@ -71,6 +73,7 @@ section p{
     margin-left: 50px;
 }
 
-.bottom{
+.bottom-img{
     height: 50vh;
+    width: 100%;
 }
